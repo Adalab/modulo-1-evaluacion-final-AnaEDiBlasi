@@ -1,12 +1,42 @@
 
 .section_shop{
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    margin: 20px;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    align-items: baseline;
+    
+    &-title{
+        color: #6c933e;
+        font-family: $roboto-regular;
+    }
+    &-title2{
+        font-family: $roboto-slab;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    &-content{
+        grid-row: span 2;
+        font-family: $roboto-regular;
+        font-size: 18px;
+        text-align: justify;
+    }
 }
 
 
-.button_comprar{
+.button_buy{
+    grid-row: 5;
     color: #6c933e;
+    border: 2px solid #6c933e;
+    background-color: white;
+    font-family: $roboto-regular;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 40px;
 }

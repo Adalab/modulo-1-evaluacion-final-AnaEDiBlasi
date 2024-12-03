@@ -1,14 +1,38 @@
 
 .content{
     background-color: #d9e4cc;
-   
-   
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
+
+.title_cards{
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    gap: 2px;
+    font-family: RobotoSlab;
+    text-align: center;
+    font-weight: bold;
+    
+
+    &-h2{
+        color: #626262;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    &-h3{
+        font-size: 25px;
+        
+
+    }
+}
+
 .cards{ 
-    display: grid;
-    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 
     &_article{ 
         display: flex;
@@ -26,7 +50,7 @@
 .image_card{
     width: 50%;
     border-radius: 50%;
-    box-shadow: 3px 4px 12px 1px rgb(0, 0, 0, 0.25) 
+    box-shadow: 3px 4px 12px 1px rgb(0, 0, 0, 0.25); 
    
 
 }
@@ -38,7 +62,19 @@
 }
 
 
-.button_empezar{
-    background-color: #6c933e;
+.button_start{
+     background-color: #6c933e;
+     font-family: Roboto;
+     color: white;
+     display: inline-block;
+     padding: 25px;
+     width: 250px;
+     margin-left: 75px;
+     margin-bottom: 50px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 20px;
+     border-radius: 60px;
+
 }
 

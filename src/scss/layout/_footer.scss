@@ -3,4 +3,46 @@
 .footer{
     background-color: #4a4a4a;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+    
+   
+
+}
+
+
+.button_arrow{
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    width: 70px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: 3px 4px 12px 1px rgb(0, 0, 0, 0.25);
+    transform: translateY(-50px)
+    
+}
+
+.nav{
+    margin-bottom: 10px;
+
+}
+
+.nav_content {
+    list-style: none;
+    margin: 10px;
+    transform: translateY(-30px);
+    gap: 10px;
+     
+}
+
+.nav_social{
+    list-style: none;
+    margin: 10px;
+    gap: 10px;
 }
