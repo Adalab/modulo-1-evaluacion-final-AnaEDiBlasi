@@ -4,7 +4,7 @@
     height: 50vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: baseline;
     
     &-title{
@@ -61,4 +61,24 @@
 }
 
 
- @media(min-width:1024px){}
+ @media(min-width:1024px){
+
+    .section_shop{
+        margin-left: 60px;
+        margin-right: 60px;
+        
+
+        &title{
+            padding-bottom: 20px;
+        }
+
+    }
+
+    .button_buy{
+        margin-top: 60px;
+    }
+
+   
+
+
+ }

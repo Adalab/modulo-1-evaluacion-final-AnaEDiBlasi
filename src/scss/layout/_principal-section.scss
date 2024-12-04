@@ -73,4 +73,20 @@
  }
 
 
- @media(min-width:1024px){}
+ @media(min-width:1024px){
+
+    .container1{
+        gap: 0;
+    }
+
+    .container1_par{
+        width: 800px;
+    }
+
+    .container1_button{
+        transform: translateY(-40px);
+    }
+
+
+
+ }

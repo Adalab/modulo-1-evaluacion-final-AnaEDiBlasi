@@ -69,7 +69,7 @@
      display: inline-block;
      padding: 25px;
      width: 250px;
-     margin-left: 75px;
+     margin-left: 65px;
      margin-bottom: 50px;
      text-align: center;
      text-decoration: none;
@@ -84,7 +84,7 @@
     .cards_only{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr;flex-wrap: wrap;
     }
 
     .button_start{
@@ -96,4 +96,15 @@
 }
 
 
- @media(min-width:1024px){}
+ @media(min-width:1024px){
+
+    .title_cards-h3{
+        font-size: 50px;
+    }
+
+    .button_start{
+        margin-left: 590px;
+    }
+
+    
+ }
