@@ -65,7 +65,28 @@
 
 
 
-@media(min-width:768px){}
+@media(min-width:768px){
+    .nav{
+        display: flex;
+        flex-direction: row;
+        gap: 90px;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        margin-left: 50px;
+       
+        .nav_content{
+            order: 2;
+            margin: 10px 20px;
+            
+        }
+        .nav_social{
+            order: 3;
+        }
+    }
+    
+}
+
+
 
 
  @media(min-width:1024px){}

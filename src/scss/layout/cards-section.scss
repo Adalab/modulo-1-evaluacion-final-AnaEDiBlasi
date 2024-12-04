@@ -12,7 +12,7 @@
     flex-direction: column;
     margin: 35px;
     gap: 2px;
-    font-family: RobotoSlab;
+    font-family: $roboto-slab;
     text-align: center;
     font-weight: bold;
     
@@ -80,7 +80,20 @@
 
 
 
-@media(min-width:768px){}
+@media(min-width:768px){
+    .cards_only{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .button_start{
+        margin-left: 250px;
+        margin-bottom: 60px;
+    }
+
+
+}
 
 
  @media(min-width:1024px){}

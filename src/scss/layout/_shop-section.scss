@@ -43,7 +43,22 @@
 
 
 
-@media(min-width:768px){}
+@media(min-width:768px){
+
+    .section_shop{
+        height: 25vh;
+    }
+
+   .section_shop{
+    
+    &title{
+        margin-top: 50px;
+    }
+   }
+   
+
+
+}
 
 
  @media(min-width:1024px){}

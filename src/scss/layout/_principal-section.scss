@@ -46,17 +46,28 @@
 
  @media(min-width:768px){
 
-    .container1_tittle{
+    .background-section{
+        background-size: cover;
+    }
 
+
+
+    .container1_tittle{
         font-size: 70px;
+
+        
     }
 
     .container1_par{
         font-size: 30px;
-        justify-content: center;
+        text-align: center;
+        width: 600px;
+        margin-bottom: 50px;
+        
     }
 
     .container1_button{
+        transform: translateY(-90px);
         
     }
  }
